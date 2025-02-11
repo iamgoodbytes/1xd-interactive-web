@@ -6,7 +6,7 @@
  */
 
 // 1. link this script file to your page and open your developer console
-const myName = "Your Name";
+const myName = "Yente";
 // 2. create a variable that keeps track of your name (can be let, const or var)
 const birthYear = parseInt(prompt("What is your birth year?"));
 // 3. create a variable that asks for your birthyear (use prompt() for that)
@@ -61,7 +61,7 @@ switch (mood.toLowerCase()) {
 // kudos to you if you use a switch statement for this
 
 // 9. create an array `foods` with three of your favorite foods
-const foods = ["Pizza", "Sushi", "Tacos"];
+const foods = ["Pizza", "Pasta", "Tacos"];
 // loop through the array and log each food to the console (use a for loop)
 for (let i = 0; i < foods.length; i++) {
   console.log(foods[i]);
