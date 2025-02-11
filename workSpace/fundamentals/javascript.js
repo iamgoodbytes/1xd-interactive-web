@@ -17,6 +17,7 @@ let birthyear = parseInt(prompt("Birthyear?", "2005"));
 // 4. calculate your age (this will require grabbing the current year somehow)
 // hint: you can get the current year with new Date().getFullYear()
 
+let age = new Date().getFullYear() - birthyear;
 
 // 5. log your age to the console
 
