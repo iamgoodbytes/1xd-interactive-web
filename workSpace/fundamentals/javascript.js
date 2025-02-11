@@ -66,7 +66,16 @@ function feeling() {
 // 9. create an array `foods` with three of your favorite foods
 // loop through the array and log each food to the console (use a for loop)
 // hint: you can get the length of an array with `array.length`
-
+let foods = ["rice and chicken", "Fries", "Boulette"];
+for (let i = 0; i < foods.length; i++) {
+  console.log(foods[i]);
+}
 // 10. create an object `person` with properties `name`, `age` and `favoriteFoods`
 // use the array `foods` as the value for the `favoriteFoods` property
 // log the object to the console
+const person = {
+    name: username,
+    age: age,
+    favoriteFoods: foods,
+  };
+  console.log(person);
