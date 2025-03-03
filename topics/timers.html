@@ -22,6 +22,11 @@
     </nav>
     <header>
         <h1>Timers & Intervals</h1>
+        <section class="info">
+            <p>Timers and intervals allow us to automate and run code every X number of seconds or miliseconds.</p>
+            <p>A simple example is the following timer: <span id="clock">0</span></p>
+        </section>
+
         <h2>Resources</h2>
         <h3>Videos</h3>
         <ul>
@@ -72,6 +77,16 @@
 
         </div>
     </section>
+
+    <script>
+        // #clock with interval
+        const clock = document.getElementById('clock');
+        let time = 0;
+        setInterval(() => {
+            time++;
+            clock.textContent = time;
+        }, 1000);
+    </script>
 
     <script src="timers.starter.js"></script>
 </body>
